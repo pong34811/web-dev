@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://pong34811-s-workspace-3fkctc.us-east-1.xata.sh/db/test-web-db",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

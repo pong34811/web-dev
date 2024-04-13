@@ -1,0 +1,11 @@
+{
+  "id": "mig_cod04ls6btciiaoq6uk0",
+  "checksum": "1:373a5b002bc2a6491bfb4354634c021ea6fc2391357c63682473a747978ea0e7",
+  "operations": [
+    {
+      "addTable": {
+        "table": "fol"
+      }
+    }
+  ]
+}

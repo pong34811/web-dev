@@ -18,14 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-    <html lang="en">
-      <body className="min-h-screen flex-justify-center items-center p-24">
-        <Navbar />
-        <div>
-        {children}
-        </div>        
-      </body>
-    </html>
+      <html lang="en">
+        <body>
+          <Navbar />
+          <div className="flex justify-center p-10">
+            {children}
+          </div>
+        </body>
+      </html>
     </ClerkProvider>
   );
 }

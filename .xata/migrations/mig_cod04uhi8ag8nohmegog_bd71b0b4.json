@@ -1,0 +1,16 @@
+{
+  "id": "mig_cod04uhi8ag8nohmegog",
+  "parentID": "mig_cod04q1i8ag8nohmegng",
+  "checksum": "1:bd71b0b419e872e5013ee1c9b8e0dcd258f3e46cf23e66e5dde780c377ff63b7",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string"
+        },
+        "table": "folders"
+      }
+    }
+  ]
+}

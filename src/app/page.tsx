@@ -4,11 +4,12 @@ import React from 'react'
 
 export default function page() {
   const {userId} = auth();
+  console.log(userId);
     if (userId) {
         redirect ('/dashboard')
     }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex justify-center">
       <h1>Next.js 14 Authentication</h1>
     </main>
   )
