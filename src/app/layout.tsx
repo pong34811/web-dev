@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./component/Navbar";
+
 import { ClerkProvider } from '@clerk/nextjs'
+import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,12 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">
-        <body>
+      <html lang="th">
+        <body >
           <Navbar />
-          <div className="flex justify-center p-10">
+
+          <div className="min-h-screen overflow-auto flex  justify-center items-center  ">
             {children}
           </div>
+
+          <Footer />
         </body>
       </html>
     </ClerkProvider>

@@ -5,6 +5,7 @@ import { z } from 'zod';
 import { revalidatePath } from 'next/dist/server/web/spec-extension/revalidate-path';
 import { auth } from '@clerk/nextjs';
 import { redirect } from 'next/navigation';
+import Navbar from '../component/Navbar';
 
 const Schema = z.object({
   name: z.string().min(5)
@@ -36,7 +37,7 @@ export default async function DashboardPage() {
     //console.log(formDate.get('name'));
   }
   return (
-    <main>
+    <main>      
       <h1 className='mb-04'>
         dashboard page
       </h1>
